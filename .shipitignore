@@ -1,0 +1,6 @@
+# Shipit ignore file
+# This file tells Shipit what to ignore during build
+
+# Ignore PostgreSQL detection - we use MySQL
+# Shipit will detect required PHP extensions from composer.json and config files
+
