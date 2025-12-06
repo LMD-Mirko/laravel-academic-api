@@ -1,0 +1,17 @@
+# Wasmer configuration file
+# This file specifies PHP extensions needed for the application
+
+[php]
+version = "8.3"
+extensions = [
+  "pdo",
+  "pdo_mysql",
+  "mbstring",
+  "openssl",
+  "json",
+  "tokenizer",
+  "xml",
+  "ctype",
+  "fileinfo"
+]
+
